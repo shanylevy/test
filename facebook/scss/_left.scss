@@ -1,0 +1,61 @@
+.left{
+    width: 33%;
+    display: inline;
+}
+
+.shortcuts{
+    margin-top: 50px;
+    display: flex;
+    align-items: center
+}
+.user{
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+.profailLeft{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.userNameLeft{
+    font-size: 16px;
+    color:$blue;
+    font-weight: bolder;
+}
+
+.editProfile{
+    color: $blue;
+    font-size: 12px;
+
+}
+
+.favoritesPage{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.favorites{
+    color: gray;
+margin-left: 20px;
+margin-bottom: 10px
+}
+.divNewsPaper{
+    display: inline;
+    margin-left: 30px
+
+}
+
+
+.divLeftMessenger{
+    display: inline;
+    margin-left: 30px
+}
+.divLeftPhoto{
+    display: inline;
+    margin-left: 30px
+}

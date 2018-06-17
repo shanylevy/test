@@ -1,0 +1,281 @@
+/* line 1, C:/Users/yaniv/fed/grid/scss/_main.scss */
+body {
+  margin: 0;
+  background-color: #dfe3ee;
+  display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+/* line 8, C:/Users/yaniv/fed/grid/scss/_main.scss */
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.head {
+  background-color: #3b5998;
+  display: flex;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px #615c5c solid;
+}
+
+/* line 9, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+/* line 14, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.fab.fa-facebook {
+  margin-left: 10px;
+}
+
+/* line 18, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.search {
+  margin-left: 10px;
+}
+
+/* line 22, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.headerLeft {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+/* line 29, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.profail {
+  height: 35px;
+}
+
+/* line 33, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.home {
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* line 38, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.home:hover {
+  background-color: slategrey;
+}
+
+/* line 42, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.userName {
+  color: white;
+  font-weight: bold;
+  border-right: 1px solid #c7bfbf;
+  padding: 5px;
+}
+
+/* line 48, C:/Users/yaniv/fed/grid/scss/_head.scss */
+.userName:hover {
+  background-color: slategrey;
+}
+
+/* line 1, C:/Users/yaniv/fed/grid/scss/_right.scss */
+.right {
+  width: 33%;
+  margin-right: 10px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* line 2, C:/Users/yaniv/fed/grid/scss/_market.scss */
+.market {
+  background-color: #ffffff;
+  width: 30%;
+  height: 250px;
+  margin-top: 20px;
+}
+
+/* line 2, C:/Users/yaniv/fed/grid/scss/_stories.scss */
+.stories {
+  background-color: #ffffff;
+  width: 70%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+/* line 10, C:/Users/yaniv/fed/grid/scss/_stories.scss */
+.storiesText {
+  font-weight: bolder;
+  color: gray;
+  padding: 10px;
+}
+
+/* line 16, C:/Users/yaniv/fed/grid/scss/_stories.scss */
+.plusText {
+  color: #3b5998;
+  font-weight: bolder;
+  align-items: center;
+}
+
+/* line 23, C:/Users/yaniv/fed/grid/scss/_stories.scss */
+.plusText2 {
+  color: gray;
+  display: block;
+  margin-left: 40px;
+}
+
+/* line 1, C:/Users/yaniv/fed/grid/scss/_birthday.scss */
+.birthday {
+  width: 80%;
+  height: 50px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  display: inline-flex;
+}
+
+/* line 9, C:/Users/yaniv/fed/grid/scss/_birthday.scss */
+.birthdayName {
+  color: #3b5998;
+  font-weight: bold;
+}
+
+/* line 13, C:/Users/yaniv/fed/grid/scss/_birthday.scss */
+.birthdaygit {
+  color: gray;
+  display: inline;
+}
+
+/* line 1, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+.feed {
+  display: flex;
+  flex-direction: column;
+  width: 44%;
+}
+
+/* line 6, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+.mainPost {
+  background-color: #ffffff;
+  margin-top: 50px;
+  border-bottom: 1px solid #c7bfbf;
+  padding: 10px;
+}
+
+/* line 14, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+.postText {
+  border: transparent;
+  height: 70px;
+  padding: 15px;
+}
+
+/* line 20, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+textarea {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 23, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+.wall {
+  margin-top: 50px;
+  background-color: #ffffff;
+}
+
+/* line 27, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+.fasfa-pen-square {
+  display: inline-flex;
+}
+
+/* line 32, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+.UpdateStatus {
+  display: inline-flex;
+  font-weight: bolder;
+  padding-right: 20px;
+}
+
+/* line 38, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+.addPhoto {
+  color: #3b5998;
+  font-weight: bolder;
+  display: inline-flex;
+}
+
+/* line 44, C:/Users/yaniv/fed/grid/scss/_feed.scss */
+.Status {
+  border-top: 1px solid #c7bfbf;
+  color: grey;
+  background-color: #ffffff;
+  height: 70px;
+}
+
+/* line 1, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.left {
+  width: 33%;
+  display: inline;
+}
+
+/* line 6, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.shortcuts {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 11, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.user {
+  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 18, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.profailLeft {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 24, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.userNameLeft {
+  font-size: 16px;
+  color: #3b5998;
+  font-weight: bolder;
+}
+
+/* line 30, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.editProfile {
+  color: #3b5998;
+  font-size: 12px;
+}
+
+/* line 36, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.favoritesPage {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 42, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.favorites {
+  color: gray;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 47, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.divNewsPaper {
+  display: inline;
+  margin-left: 30px;
+}
+
+/* line 54, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.divLeftMessenger {
+  display: inline;
+  margin-left: 30px;
+}
+
+/* line 58, C:/Users/yaniv/fed/grid/scss/_left.scss */
+.divLeftPhoto {
+  display: inline;
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=../css/sty.map */

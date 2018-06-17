@@ -1,0 +1,52 @@
+.head{
+    background-color:$blue;
+    display: flex;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px rgb(97, 92, 92) solid;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+
+}
+.fab.fa-facebook {
+    margin-left: 10px
+
+}
+.search{
+    margin-left: 10px
+
+}
+.headerLeft{
+    display:inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.profail{
+    height: 35px;
+
+}
+.home{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+
+    &:hover{
+    background-color: slategrey;
+    }
+}
+.userName{
+    color: white;
+    font-weight: bold;
+    border-right:$border;
+    padding: 5px;
+
+    &:hover{
+        background-color: slategrey;
+    }
+}
+    

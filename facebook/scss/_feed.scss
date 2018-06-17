@@ -1,0 +1,50 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+}
+.mainPost {
+    background-color:$backgroundColorDiv;
+    margin-top: 50px;
+    border-bottom: $border;
+    padding: 10px
+
+}
+
+.postText{
+    border: transparent;
+    height: 70px;
+    padding: 15px
+}
+
+textarea {
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.wall {
+    margin-top: 50px;
+    background-color:$backgroundColorDiv;
+}
+.fasfa-pen-square{
+    display: inline-flex;
+
+}
+
+.UpdateStatus{
+    display: inline-flex;
+    font-weight: bolder;
+    padding-right: 20px
+}
+
+.addPhoto{
+    color:$blue ;
+    font-weight: bolder;
+    display: inline-flex;
+}
+
+.Status{
+    border-top: $border;
+    color: grey;
+    background-color:$backgroundColorDiv;
+    height: 70px;
+
+}

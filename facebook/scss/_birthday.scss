@@ -1,0 +1,16 @@
+.birthday{
+    width: 80%;
+    height: 50px;
+    background-color: $backgroundColorDiv;
+    margin-top: 20px;
+    display: inline-flex;
+
+}
+.birthdayName{
+    color: $blue;
+    font-weight: bold
+}
+.birthdaygit{
+    color: gray;
+    display: inline;
+}
